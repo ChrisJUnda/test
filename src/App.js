@@ -54,6 +54,7 @@ import Annuncio from './components/annuncio';
 import Profilo from './components/profilo';
 import Modifica from './components/modifica';
 import Curriculum from './components/curriculum';
+import Scelta from './components/scelta';
  
  
  
@@ -73,6 +74,7 @@ function App() {
         <Route path='/profilo' element={<Profilo></Profilo>}></Route>
         <Route path='/modifica' element={<Modifica></Modifica>}></Route>
         <Route path='/curriculum' element={<Curriculum></Curriculum>}></Route>
+        <Route path='/scelta' element={<Scelta></Scelta>}></Route>
        
          
        

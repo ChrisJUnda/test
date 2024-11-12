@@ -80,6 +80,7 @@
 
 // export default REGISTRATION;
 import { useState } from "react";
+import { Link } from "react-router-dom";
  
 function REGISTRATION() {
  
@@ -222,12 +223,12 @@ function REGISTRATION() {
         </div>
       </div>
       <p className="mt-2 text-center text-sm leading-5 text-gray-500 max-w">
-          Or <a
-            href="#"
+          Or <Link
+            to="/login"
             className="font-medium text-blue-600 hover:text-blue-500 focus:outline-none focus:underline transition ease-in-out duration-150"
           >
             login to your account
-          </a>
+          </Link>
         </p>
     </div>
  

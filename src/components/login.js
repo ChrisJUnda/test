@@ -253,6 +253,7 @@
 import { useEffect, useState } from "react";
 // import '../styles/login.css'
 import axios from "axios";
+import { Link } from "react-router-dom";
  
 function Login() {
   useEffect(()=>{
@@ -324,12 +325,12 @@ function Login() {
       </div>
     </div>
     <p className="mt-2 text-center text-sm leading-5 text-gray-500 max-w">
-        Or <a
-          href="#"
+        Or <Link
+          to="/registration"
           className="font-medium text-blue-600 hover:text-blue-500 focus:outline-none focus:underline transition ease-in-out duration-150"
         >
           create an account
-        </a>
+        </Link>
       </p>
   </div>
  
